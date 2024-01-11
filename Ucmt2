@@ -1,0 +1,264 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+   --Autofarm
+local Window = Library.CreateLib("Gaster Hub", "DarkTheme")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Soul and core")
+Section:NewToggle("Autosoul", "ToggleInfo", function(state)
+    if state then
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+while true do
+    if character then
+        local root = character:FindFirstChild("HumanoidRootPart")
+        
+        if root then
+            local desiredCFrame = CFrame.new(653.373901, 124.462967, 2728.60181, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+            root.CFrame = desiredCFrame
+        end
+    end
+    
+    wait(0.5) -- Wait for 0.5 second before teleporting again
+end
+    else
+local Players = game:GetService("Players")
+
+-- Function to reset the character
+local function resetCharacter()
+    local player = Players.LocalPlayer
+    local character = player.Character
+
+    if character then
+        character:BreakJoints()
+    end
+end
+
+-- Call the reset function immediately
+resetCharacter()
+    end
+end)
+Section:NewToggle("inf core", "ToggleInfo", function(state)
+    if state then
+getgenv().G = true while getgenv().G do wait() for i = 1,100 do game:GetService("Workspace").Give13Core.AddFear:FireServer() end end
+    else
+local Players = game:GetService("Players")
+
+-- Function to reset the character
+local function resetCharacter()
+    local player = Players.LocalPlayer
+    local character = player.Character
+
+    if character then
+        character:BreakJoints()
+    end
+end
+
+-- Call the reset function immediately
+resetCharacter()
+    end
+end)
+
+local Section = Tab:NewSection("player")
+Section:NewButton("Btools", "ButtonInfo", function()
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+end)
+Section:NewButton("Fly", "ButtonInfo", function()
+--ARCEUS X FLY V2 SCRIPT
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+local Section = Tab:NewSection("Special characters")
+
+Section:NewButton("Loading sans《read disc》", "click more than one", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(227.534134, 182.839828, 1775.71814, -0.00451171398, 0, 0.999989808, 0, 1, 0, -0.999989808, 0, -0.00451171398)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+Section:NewButton("Shadow sans《read disc》", "click more than one time", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(226.735275, 182.874435, 1679.56689, -0.00451171398, 0, 0.999989808, 0, 1, 0, -0.999989808, 0, -0.00451171398)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+Section:NewButton("Vantablack sans《read disc》", "click more than one time", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(226.804642, 183.288986, 1751.24634, -0.00451171398, 0, 0.999989808, 0, 1, 0, -0.999989808, 0, -0.00451171398)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+Section:NewButton("Ten No kami《read disc》", "click more than one time", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(223.488098, 182.643997, 1797.79675, 0.00451171398, 0, 0.999989808, 0, -1, 0, 0.999989808, 0, -0.00451171398)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+Section:NewButton("Alphacorrupted sans《read disc》", "click more than one time", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(525.143311, 174.933273, 1418.14246, 0.00451171398, -0, -0.999989808, 0, 1, -0, 0.999989808, 0, 0.00451171398)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+Section:NewButton("Alphacorrupted 404 sans《read disc》", "click more than one time", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(524.328796, 174.953232, 1427.78052, 0.00451171398, -0, -0.999989808, 0, 1, -0, 0.999989808, 0, 0.00451171398)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+Section:NewButton("LowLvl dust sans《read disc》", "click more than one time", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(226.652924, 178.328217, 1407.18774, -0.00451171398, 0, 0.999989808, 0, 1, 0, -0.999989808, 0, -0.00451171398)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+Section:NewButton("Snowdin dust sans《read disc》", "click more than one time", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(226.948334, 178.328217, 1414.38171, -0.00451171398, 0, 0.999989808, 0, 1, 0, -0.999989808, 0, -0.00451171398)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+Section:NewButton("Waterfall dust sans《read disc》", "click more than one time", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(227.038162, 181.206757, 1423.1665, 0.0273992419, 0.000304329442, 0.99962455, 5.68516989e-05, 0.99999994, -0.000306002039, -0.99962455, 6.52145827e-05, 0.0273991823)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+Section:NewButton("Hotland dust sans《read disc》", "click more than one time", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(226.894089, 179.206787, 1432.11047, 0.0273992419, 0.000304329442, 0.99962455, 5.68516989e-05, 0.99999994, -0.000306002039, -0.99962455, 6.52145827e-05, 0.0273991823)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+Section:NewButton("Maxlvl dust sans《read disc》", "click more than one time", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(227.05809, 182.574341, 1440.90234, -0.999990225, 0, 0.00448873406, 0, -1.00000024, 0, 0.00448873406, 0, 0.999989927)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+local Section = Tab:NewSection("Nighterror event")
+Section:NewButton("Teleport to Nighterror event", "ButtonInfo", function()
+local Players = game:GetService("Players")
+local TeleportService = game:GetService("TeleportService")
+
+local TARGET_PLACE_ID = 10815554198 -- replace with your desired place ID
+local playerToTeleport = Players.LocalPlayer -- get the current player
+
+TeleportService:Teleport(TARGET_PLACE_ID, playerToTeleport)
+end)
+Section:NewButton("Get badge《must go through the portal before using this》", "ButtonInfo", function()
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+if character then
+    local root = character:FindFirstChild("HumanoidRootPart")
+    
+    if root then
+        local desiredCFrame = CFrame.new(-0.297188014, 107.790039, 148.057556, 0.230305493, -0.439675122, 0.868127406, -0.402813882, 0.769016325, 0.496341467, -0.885833204, -0.464003921, 1.43051147e-06)
+        root.CFrame = desiredCFrame
+    end
+end
+end)
+local Section = Tab:NewSection("No more deals event")
+Section:NewButton("teleport to no more deals event", "ButtonInfo", function()
+local Players = game:GetService("Players")
+local TeleportService = game:GetService("TeleportService")
+
+local TARGET_PLACE_ID = 13224644215 -- replace with your desired place ID
+
+-- Function to teleport the player to the target place
+local function teleportToPlace()
+    local player = Players.LocalPlayer
+    TeleportService:Teleport(TARGET_PLACE_ID, player)
+end
+
+-- Call the function to teleport to the target place
+teleportToPlace()
+end)
+Section:NewButton("kill boss《go through portal first", "ButtonInfo", function()
+local player = game.Players.LocalPlayer
+
+for _,v in next, workspace:GetDescendants() do
+    if v:IsA("Humanoid") and v.Parent ~= player.Character then
+        v.Health = 0
+    end
+end
+end)
+local Section = Tab:NewSection("credits to")
+Section:NewLabel("THEDARKNESSKEEPSGROWING")
+Section:NewLabel("Sub to me please 《on youtube》")
